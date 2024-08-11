@@ -1,0 +1,26 @@
+Overview : 
+	 -> This repository contains the code for Reachinbox frontend App using React with Typescript for an assignment given by Reachinbox.
+
+Technologies Used ( Frontend ) : 
+	1.Typescript
+	2.React
+	3.Tailwind css
+
+How to Run :
+	-> Installation :
+			Clone the repository: git clone https://github.com/astuteuttu/reachinbox-assignment.git
+			Navigate to the project directory: cd reachinbox
+			Install the dependencies: npm install
+			Start the development server: npm run start
+			Open your browser and visit: http://localhost:3000
+	-> Features :
+		Authentication
+		Get Emails
+		Post (send) Email
+		Delete Email
+
+Endpoints :
+		All Emails : GET {{baseurl}}/onebox/list 
+		All Emails from Onebox : GET {{baseurl}}/onebox/messages/:thread_id 
+		Add Onebox Mail : POST {{baseurl}}/onebox/reply/:thread_id 
+		Delete Email : DELETE {{baseurl}}/onebox/messages/:thread_id 
